@@ -1,0 +1,42 @@
+.form-control {
+  font-family: system-ui, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.1;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  width: 1000px;
+  background-color: darkslateblue;
+  border: black 2px solid;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.Lt-container {
+   min-width: 20%;
+  font-size: 20px;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: darkslateblue;
+}
+
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-left: auto; 
+  
+}
+
+.ed-container,
+.ec-container {
+  margin: 0;
+  min-width: auto;
+  background-color: darkslateblue;
+}
